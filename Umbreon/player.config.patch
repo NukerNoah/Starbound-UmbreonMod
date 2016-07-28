@@ -1,0 +1,4 @@
+[
+	{ "op" : "add", "path" : "/species/-", "value" : "umbreon"},
+	{ "op" : "add", "path" : "/defaultCodexes/Umbreon", "value" : [ "protectorate1", "protectorate2" ]	}
+]

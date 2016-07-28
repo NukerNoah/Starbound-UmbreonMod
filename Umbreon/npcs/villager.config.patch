@@ -1,0 +1,15 @@
+[  
+  {  
+    "op":"add",
+    "path":"/hail/Umbreon",
+    "value":{  
+      "default":[  
+        "Need something?",
+        "*mumbles softly*",
+        "Whatd'ya need?",
+        "Watch your back."
+,
+        "What a strange place..."      ],
+      }
+  }
+]

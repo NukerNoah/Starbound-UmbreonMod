@@ -1,0 +1,20 @@
+{
+  "projectileName" : "ice",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "ice.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "power" : 5.0,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/icehit/icehit.config"
+    }
+  ],
+  "lightColor" : [155, 212, 255],
+  "damageKind" : "plasma"
+}

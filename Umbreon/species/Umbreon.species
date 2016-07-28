@@ -1,0 +1,225 @@
+{
+  "kind" : "Umbreon",
+  
+  "charCreationTooltip" : {
+      "title" : "Umbreon",
+      "subTitle" : "The Moonlight Pokémon",
+      "description" : "Familiars are a new addition to an old universe, a wild unknown in nearly all fields of science, a complete mystery. Despite their rarity, familiars have begun to integrate into society and made themselves known across the galaxy."
+  },
+  
+  "nameGen" : [ "/species/Umbreonnamegen.config:names", "/species/Umbreonnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/Umbreonhurt_male1.wav", "/sfx/humanoid/Umbreonhurt_female1.wav" ],
+  "charGenTextLabels" : [ "FUR COLOR", "HAIR STYLE", "SHIRT", "PANTS", "MARKING COLOR", "HAIR COLOR", "SHIRT COLOR", "PANTS COLOR", "UMBREON", "PERSONALITY" ],
+  "skull" : "/humanoid/Umbreon/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+      { "item" : "humantier1hammer" },
+      { "item" : "humantier1shortsword" },
+      { "item" : "humantier1broadsword" },
+      { "item" : "humantier1spear" },
+      { "item" : "humantier1axe" },
+      { "item" : "humantier1dagger" },
+      { "item" : "humantier1head" },
+      { "item" : "humantier1chest" },
+      { "item" : "humantier1pants" },
+	  { "item" : "shadowball" },
+      { "item" : "apexcommanderjacket" },
+      { "item" : "apexcommanderpants" },
+      { "item" : "apexnavyjacket" },
+      { "item" : "apexnavypants" },
+      { "item" : "apexofficerjacket" },
+      { "item" : "apexofficerpants" },
+      { "item" : "apexspecialistjacket" },
+      { "item" : "apexspecialistpants" },
+      { "item" : "carrotbread" },
+	  { "item" : "carrotcake" },
+      { "item" : "vegetablesoup" },
+      { "item" : "bread" },
+      { "item" : "sweetcorn" },
+      { "item" : "candyapple" },
+      { "item" : "icecream" },
+      { "item" : "flaghuman" },
+	  
+      { "item" : "humantier2hammer" },
+      { "item" : "humantier2shortsword" },
+      { "item" : "humantier2broadsword" },
+      { "item" : "humantier2spear" },
+      { "item" : "humantier2axe" },
+      { "item" : "humantier2dagger" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+	  { "item" : "spawnerUmbreon" },
+      { "item" : "spawnerhuman" },
+	  
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier3hammer" },
+      { "item" : "humantier3shortsword" },
+      { "item" : "humantier3broadsword" },
+      { "item" : "humantier3spear" },
+      { "item" : "humantier3axe" },
+      { "item" : "humantier3dagger" },
+	  
+      { "item" : "humantier4head" },  
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+      { "item" : "humantier4hammer" },
+      { "item" : "humantier4shortsword" },
+      { "item" : "humantier4broadsword" },
+      { "item" : "humantier4spear" },
+      { "item" : "humantier4axe" },
+      { "item" : "humantier4dagger" },
+	  
+      { "item" : "humantier5head" },
+      { "item" : "humantier5chest" },
+      { "item" : "humantier5pants" },
+      { "item" : "humantier5hammer" },
+      { "item" : "humantier5shortsword" },
+      { "item" : "humantier5broadsword" },
+      { "item" : "humantier5spear" },
+      { "item" : "humantier5axe" },
+      { "item" : "humantier5dagger" },
+	  
+      { "item" : "humantier6head" },
+      { "item" : "humantier6chest" },
+      { "item" : "humantier6pants" },
+      { "item" : "humantier6hammer" },
+      { "item" : "humantier6shortsword" },
+      { "item" : "humantier6broadsword" },
+      { "item" : "humantier6spear" },
+      { "item" : "humantier6axe" },
+      { "item" : "humantier6dagger" },
+	  
+      { "item" : "humantier7head" },
+      { "item" : "humantier7chest" },
+      { "item" : "humantier7pants" },
+      { "item" : "humantier7hammer" },
+      { "item" : "humantier7shortsword" },
+      { "item" : "humantier7broadsword" },
+      { "item" : "humantier7spear" },
+      { "item" : "humantier7axe" },
+      { "item" : "humantier7dagger" },
+	  
+      { "item" : "humantier8head" },
+      { "item" : "humantier8chest" },
+      { "item" : "humantier8pants" },
+      { "item" : "humantier8hammer" },
+      { "item" : "humantier8shortsword" },
+      { "item" : "humantier8broadsword" },
+      { "item" : "humantier8spear" },
+      { "item" : "humantier8axe" },
+      { "item" : "humantier8dagger" },
+	  
+      { "item" : "humantier9head" },
+      { "item" : "humantier9chest" },
+      { "item" : "humantier9pants" },
+      { "item" : "humantier9hammer" },
+      { "item" : "humantier9shortsword" },
+      { "item" : "humantier9broadsword" },
+      { "item" : "humantier9spear" },
+      { "item" : "humantier9axe" },
+      { "item" : "humantier9dagger" },
+	  
+      { "item" : "humantier10head" },
+      { "item" : "humantier10chest" },
+      { "item" : "humantier10pants" },
+      { "item" : "humantier10hammer" },
+      { "item" : "humantier10shortsword" },
+      { "item" : "humantier10broadsword" },
+      { "item" : "humantier10spear" },
+      { "item" : "humantier10axe" },
+      { "item" : "humantier10dagger" }
+    ]
+  },
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/maleumbre.png",
+      "characterImage" : "/interface/title/Umbreonmale.png",
+      "hair" : [ "Bald" ],
+      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
+      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/femaleumbre.png",
+      "characterImage" : "/interface/title/Umbreonfem.png",
+      "hair" : [ "Bald" ],
+      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
+      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    { "3f3f3f" : "3f3f3f", "2a2a2a" : "2a2a2a", "151515" : "151515", "ffedea" : "ffedea", "ea1515" : "ea1515", "470e15" : "470e15" }, //default black
+    { "3f3f3f" : "6a6a6a", "2a2a2a" : "4a4a4a", "151515" : "2a2a2a", "ffedea" : "ffedea", "ea1515" : "ea1515", "470e15" : "470e15" }, //smoky grey
+    { "3f3f3f" : "8a8a8a", "2a2a2a" : "6a6a6a", "151515" : "3f3f3f", "ffedea" : "ffedea", "ea1515" : "ea1515", "470e15" : "470e15" }, //pebble
+	{ "3f3f3f" : "e7e9ed", "2a2a2a" : "b8bac7", "151515" : "8c8c9d", "ffedea" : "eafaff", "ea1515" : "159aea", "470e15" : "0e2b47" }, //silver white
+    { "3f3f3f" : "c19568", "2a2a2a" : "9c6b4e", "151515" : "6a4a40", "ffedea" : "ffefea", "ea1515" : "a83d2d", "470e15" : "3d1818" }, //eevee mocha
+    { "3f3f3f" : "e2c2e7", "2a2a2a" : "b98dc7", "151515" : "88609f", "ffedea" : "f8eaff", "ea1515" : "8657d2", "470e15" : "302060" } //espeon lilac
+  ],
+  "undyColor" : [ 
+	{ "ffca2b" : "ffca2b", "cc8309" : "cc8309" }, //default yellow
+	{ "ffca2b" : "2bcaff", "cc8309" : "0983cc" }, //shiny blue
+	{ "ffca2b" : "ff8a15", "cc8309" : "cc5209" }, //orange
+	{ "ffca2b" : "80ea15", "cc8309" : "58b123" }, //lime
+	{ "ffca2b" : "f1e3b8", "cc8309" : "dcb778" }, //cream
+	{ "ffca2b" : "adf2fc", "cc8309" : "63cef1" }, //light blue
+	{ "ffca2b" : "fcadc1", "cc8309" : "f16398" }, //pink
+	{ "ffca2b" : "f4f4f4", "cc8309" : "c9c9c9" } //white
+  ],
+  "hairColor" : [ 
+    { "d9c189" : "F2E6E1", "B29F72" : "E2D7D3", "a38d59" : "D3C9C4", "8C7147" : "BAB2AE", "735e3a" : "AAA3A0" }, //fran
+
+    { "d9c189" : "50422f", "B29F72" : "443828", "a38d59" : "36261e", "8C7147" : "2B1E18", "735e3a" : "170f0d" }, //darkbrown
+ 
+    { "d9c189" : "7f5a39", "B29F72" : "704F32", "a38d59" : "5b3523", "8C7147" : "4F2E1E", "735e3a" : "3b1f15" }, //lightbrown
+ 
+    { "d9c189" : "a6671d", "B29F72" : "9B601B", "a38d59" : "915622", "8C7147" : "844E1F", "735e3a" : "743e1d" }, //copper
+ 
+    { "d9c189" : "e6e756", "B29F72" : "D3D350", "a38d59" : "c7ac3f", "8C7147" : "BAA03B", "735e3a" : "a9882f" }, //lemonyellow
+ 
+    { "d9c189" : "f2eba3", "B29F72" : "E5DE9C", "a38d59" : "dcd28c", "8C7147" : "CEC484", "735e3a" : "c2b677" }, //buttercream
+ 
+    { "d9c189" : "7d3c1c", "B29F72" : "663017", "a38d59" : "4d240b", "8C7147" : "381908", "735e3a" : "2d1606" }, //mahogany
+  
+    { "d9c189" : "ad2716", "B29F72" : "9E2214", "a38d59" : "8f1f1b", "8C7147" : "841C19", "735e3a" : "731a1a" }, //jeangrey
+  
+    { "d9c189" : "b8b8b8", "B29F72" : "A8A8A8", "a38d59" : "828282", "8C7147" : "727272", "735e3a" : "555555" }, //platina
+  
+    { "d9c189" : "eaeaea", "B29F72" : "D8D8D8", "a38d59" : "b8b8b8", "8C7147" : "A5A5A5", "735e3a" : "828282" }, //ororo
+   
+    { "d9c189" : "6f6d85", "B29F72" : "66647A", "a38d59" : "525269", "8C7147" : "4A4A5E", "735e3a" : "3e4352" }, //smokeypurple
+  
+    { "d9c189" : "cd72d9", "B29F72" : "BE6AC9", "a38d59" : "ac4da6", "8C7147" : "9B4597", "735e3a" : "913b86" }, //bubblegum
+  
+    { "d9c189" : "425879", "B29F72" : "394C68", "a38d59" : "343965", "8C7147" : "2B2F51", "735e3a" : "242247" }, //cobalt
+  
+    { "d9c189" : "5d8bc7", "B29F72" : "537EB2", "a38d59" : "4d55b0", "8C7147" : "464EA0", "735e3a" : "2e2a73" }, //azure
+  
+    { "d9c189" : "653b7f", "B29F72" : "593470", "a38d59" : "562e6a", "8C7147" : "4A285B", "735e3a" : "3f1d4b" }, //psylocke
+ 
+    { "d9c189" : "7f3b6d", "B29F72" : "723563", "a38d59" : "6a2e53", "8C7147" : "592746", "735e3a" : "4b1d30" }, //berry
+ 
+    { "d9c189" : "efa838", "B29F72" : "D89634", "a38d59" : "be6d1d", "8C7147" : "AD621B", "735e3a" : "834012" }, //sunshine
+ 
+    { "d9c189" : "4ece61", "B29F72" : "48BF58", "a38d59" : "34ae47", "8C7147" : "2F9E40", "735e3a" : "228a38" }, //terra
+  
+    { "d9c189" : "3b7f44", "B29F72" : "34703B", "a38d59" : "2e6a38", "8C7147" : "285B30", "735e3a" : "1d4b28" }, //grass
+  
+    { "d9c189" : "74726f", "B29F72" : "666461", "a38d59" : "53504d", "8C7147" : "444240", "735e3a" : "2a251e" }  //black
+
+  ]
+}

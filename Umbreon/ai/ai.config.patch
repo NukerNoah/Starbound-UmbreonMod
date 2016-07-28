@@ -1,0 +1,10 @@
+[
+	{ 
+	"op" : "add",
+	"path" : "/species/Umbreon",
+	"value" : {
+		"aiFrames" : "Umbreonai.png",
+		"portraitFrames" : "portraits/Umbreonportrait.png",
+		"staticFrames" : "staticUmbreon.png"
+	} }
+]

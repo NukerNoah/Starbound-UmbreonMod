@@ -1,0 +1,55 @@
+{
+  "objectName" : "spawnerUmbreon",
+  "rarity" : "Common",
+  "description" : "Well, time for some company...",
+  "shortdescription" : "Umbreon Spawner",
+  "race" : "Umbreon",
+  "printable" : true,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "A device in which it spawn a Umbreon race.",
+  "avianDescription" : "Foxes seem to be popping out of no where!",
+  "floranDescription" : "Floran sssee a Fox appear from ssstrange thing.",
+  "glitchDescription" : "Query. Does this mean where growing carrots crops?",
+  "humanDescription" : "Aright, Foxes for everyone!",
+  "hylotlDescription" : "A spawner for the ones called Umbreon.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_Umbreon.png",
+      "imagePosition" : [-8, -8],
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/Umbreon.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_Umbreon.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "Umbreon" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

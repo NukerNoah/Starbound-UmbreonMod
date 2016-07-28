@@ -1,0 +1,20 @@
+[
+
+{ "op" : "add", "path" : "/UmbreonStarterTreasure", "value" : [
+	[0, {
+		"fill" : [
+		{"pool" : "starterTreasure"},
+		{"item" : [ "torch", 10]},
+		{"item" : [ "wheatseed", 3]},
+		{"item" : [ "carrotseed", 3]},
+		{"item" : [ "oranberryseed", 3]},
+		{"item" : [ "carrot", 5]},
+		{"item" : [ "icepunch", 1]},
+		{"item" : [ "humanstarter", 1]}
+		]
+	}]
+]
+
+}
+
+]

@@ -1,0 +1,12 @@
+      {
+      "name" : "Umbreon",
+      "version" : "Stable v. Upbeat Giraffe",
+      "path" : ".",
+      "dependencies" : [ ],
+      "metadata": {
+        "author" : "Ochiru Yuki",
+        "description" : "Now you too can be a Umbreon!",
+		"version" : "2.5"
+      }
+    }
+

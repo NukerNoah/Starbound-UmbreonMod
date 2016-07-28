@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/Umbreon",
+		"value" : [
+		    "/ships/Umbreon/humant0.structure",
+			"/ships/Umbreon/humant1.structure",
+			"/ships/Umbreon/humant2.structure",
+			"/ships/Umbreon/humant3.structure",
+			"/ships/Umbreon/humant4.structure",
+			"/ships/Umbreon/humant5.structure",
+			"/ships/Umbreon/humant6.structure",
+			"/ships/Umbreon/humant7.structure",
+			"/ships/Umbreon/humant8.structure"
+		]
+	}
+]

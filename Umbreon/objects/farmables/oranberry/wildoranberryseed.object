@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildoranberryseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A berry of mixed flavours and healing attributes.",
+  "shortdescription" : "Oran Berry Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "oranberryseed",
+
+  "apexDescription" : "A berry of the lopunnys, seem to have health benefits.",
+  "avianDescription" : "So this is what healing tastes like?",
+  "floranDescription" : "Floran woundersss if berriesss make good sssoup broth.",
+  "glitchDescription" : "Excitement: Now I can test my botany skills.",
+  "humanDescription" : "Food and a healing product, capitalism here I come!",
+  "hylotlDescription" : "It fills and soothes the body, a vary useful berry in deed.",
+
+  "inventoryIcon" : "oranberryseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "oranberryseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "oranberry",
+            "count" : 1
+          },
+          {
+            "name" : "oranberryseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "oranberry",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "oranberry",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [0, 1],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [0, 1],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}
