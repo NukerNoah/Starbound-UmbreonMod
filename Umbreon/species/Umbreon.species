@@ -8,7 +8,7 @@
   },
   
   "nameGen" : [ "/species/Umbreonnamegen.config:names", "/species/Umbreonnamegen.config:names" ],
-  "ouchNoises" : [ "/sfx/humanoid/Umbreonhurt_male1.wav", "/sfx/humanoid/Umbreonhurt_female1.wav" ],
+  "ouchNoises" : [ "/sfx/humanoid/Umbreoncry.wav", "/sfx/humanoid/Umbreoncry.wav" ],
   "charGenTextLabels" : [ "FUR COLOR", "HAIR STYLE", "SHIRT", "PANTS", "MARKING COLOR", "HAIR COLOR", "SHIRT COLOR", "PANTS COLOR", "UMBREON", "PERSONALITY" ],
   "skull" : "/humanoid/Umbreon/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
@@ -40,6 +40,7 @@
       { "item" : "candyapple" },
       { "item" : "icecream" },
       { "item" : "flaghuman" },
+	  { "item" : "pokepotion"},
 	  
       { "item" : "humantier2hammer" },
       { "item" : "humantier2shortsword" },
@@ -178,7 +179,8 @@
 	{ "ffca2b" : "f1e3b8", "cc8309" : "dcb778" }, //cream
 	{ "ffca2b" : "adf2fc", "cc8309" : "63cef1" }, //light blue
 	{ "ffca2b" : "fcadc1", "cc8309" : "f16398" }, //pink
-	{ "ffca2b" : "f4f4f4", "cc8309" : "c9c9c9" } //white
+	{ "ffca2b" : "f4f4f4", "cc8309" : "c9c9c9" }, //white
+	{ "ffca2b" : "b959ff", "cc8309" : "a426ff" } //violet
   ],
   "hairColor" : [ 
     { "d9c189" : "F2E6E1", "B29F72" : "E2D7D3", "a38d59" : "D3C9C4", "8C7147" : "BAB2AE", "735e3a" : "AAA3A0" }, //fran

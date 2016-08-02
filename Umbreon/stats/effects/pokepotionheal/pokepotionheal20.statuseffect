@@ -1,0 +1,17 @@
+{
+  "name" : "pokepotionheal20",
+  "effectConfig" : {
+    "healAmount" : 20,
+    "emissionRate" : 3
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "pokepotionheal.lua"
+  ],
+
+  "animationConfig" : "pokepotionheal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}
