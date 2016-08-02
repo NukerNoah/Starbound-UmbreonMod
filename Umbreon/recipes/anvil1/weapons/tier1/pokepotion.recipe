@@ -3,5 +3,5 @@
 		{ "item" : "corefragmentore" "count" : 1 }
 	],
 	"output" : { "item" : "pokepotion" , "count" : 1 },
-	"groups" : [ "anvil" , "weapons", "all" ]
+	"groups" : [ "craftinganvil" , "weapons", "all" ]
 }
