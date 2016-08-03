@@ -4,34 +4,89 @@
   "charCreationTooltip" : {
       "title" : "Umbreon",
       "subTitle" : "The Moonlight Pokémon",
-      "description" : "Familiars are a new addition to an old universe, a wild unknown in nearly all fields of science, a complete mystery. Despite their rarity, familiars have begun to integrate into society and made themselves known across the galaxy."
+      "description" : "Umbreon evolved as a result of exposure to radiation waves after they bounced off of the moon. They often hide silently in darkness and wait for their foes to make a move. The rings on their bodies glow when they leaps to attack."
   },
   
   "nameGen" : [ "/species/Umbreonnamegen.config:names", "/species/Umbreonnamegen.config:names" ],
-  "ouchNoises" : [ "/sfx/humanoid/Umbreonhurt_male1.wav", "/sfx/humanoid/Umbreonhurt_female1.wav" ],
+  "ouchNoises" : [ "/sfx/humanoid/Umbreoncry.wav", "/sfx/humanoid/Umbreoncry.wav" ],
   "charGenTextLabels" : [ "FUR COLOR", "HAIR STYLE", "SHIRT", "PANTS", "MARKING COLOR", "HAIR COLOR", "SHIRT COLOR", "PANTS COLOR", "UMBREON", "PERSONALITY" ],
   "skull" : "/humanoid/Umbreon/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
   "defaultBlueprints" : {
     "tier1" : [
-      { "item" : "humantier1hammer" },
-      { "item" : "humantier1shortsword" },
-      { "item" : "humantier1broadsword" },
-      { "item" : "humantier1spear" },
-      { "item" : "humantier1axe" },
-      { "item" : "humantier1dagger" },
+// Empty Hands
+      { "item" : "flaghuman" },
+
+// Anvil
       { "item" : "humantier1head" },
       { "item" : "humantier1chest" },
       { "item" : "humantier1pants" },
-	  { "item" : "shadowball" },
-      { "item" : "apexcommanderjacket" },
-      { "item" : "apexcommanderpants" },
-      { "item" : "apexnavyjacket" },
-      { "item" : "apexnavypants" },
-      { "item" : "apexofficerjacket" },
-      { "item" : "apexofficerpants" },
-      { "item" : "apexspecialistjacket" },
-      { "item" : "apexspecialistpants" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+
+// Anvil2
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier4head" },
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+
+// Anvil3
+      { "item" : "humantier5ahead" },
+      { "item" : "humantier5achest" },
+      { "item" : "humantier5apants" },
+      { "item" : "humantier6ahead" },
+      { "item" : "humantier6achest" },
+      { "item" : "humantier6apants" },
+
+      { "item" : "humantier5mhead" },
+      { "item" : "humantier5mchest" },
+      { "item" : "humantier5mpants" },
+      { "item" : "humantier6mhead" },
+      { "item" : "humantier6mchest" },
+      { "item" : "humantier6mpants" },
+
+      { "item" : "humantier5shead" },
+      { "item" : "humantier5schest" },
+      { "item" : "humantier5spants" },
+      { "item" : "humantier6shead" },
+      { "item" : "humantier6schest" },
+      { "item" : "humantier6spants" },
+
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "humanshipdoor" },
+      { "item" : "humanshiphatch" },
+
+// Spinning Wheel
+      { "item" : "conceptchest" },
+      { "item" : "conceptlegs" },
+      { "item" : "coolchest" },
+      { "item" : "coollegs" },
+      { "item" : "sweatervestchest" },
+      { "item" : "sweatervestlegs" },
+      { "item" : "workoutchest" },
+      { "item" : "workoutlegs" },
+//Extra Items
       { "item" : "carrotbread" },
 	  { "item" : "carrotcake" },
       { "item" : "vegetablesoup" },
@@ -39,99 +94,9 @@
       { "item" : "sweetcorn" },
       { "item" : "candyapple" },
       { "item" : "icecream" },
-      { "item" : "flaghuman" },
+	  { "item" : "pokepotion"},
+	  { "item" : "shadowball" }
 	  
-      { "item" : "humantier2hammer" },
-      { "item" : "humantier2shortsword" },
-      { "item" : "humantier2broadsword" },
-      { "item" : "humantier2spear" },
-      { "item" : "humantier2axe" },
-      { "item" : "humantier2dagger" },
-      { "item" : "humantier2head" },
-      { "item" : "humantier2chest" },
-      { "item" : "humantier2pants" },
-	  { "item" : "spawnerUmbreon" },
-      { "item" : "spawnerhuman" },
-	  
-      { "item" : "humantier3head" },
-      { "item" : "humantier3chest" },
-      { "item" : "humantier3pants" },
-      { "item" : "humantier3hammer" },
-      { "item" : "humantier3shortsword" },
-      { "item" : "humantier3broadsword" },
-      { "item" : "humantier3spear" },
-      { "item" : "humantier3axe" },
-      { "item" : "humantier3dagger" },
-	  
-      { "item" : "humantier4head" },  
-      { "item" : "humantier4chest" },
-      { "item" : "humantier4pants" },
-      { "item" : "humantier4hammer" },
-      { "item" : "humantier4shortsword" },
-      { "item" : "humantier4broadsword" },
-      { "item" : "humantier4spear" },
-      { "item" : "humantier4axe" },
-      { "item" : "humantier4dagger" },
-	  
-      { "item" : "humantier5head" },
-      { "item" : "humantier5chest" },
-      { "item" : "humantier5pants" },
-      { "item" : "humantier5hammer" },
-      { "item" : "humantier5shortsword" },
-      { "item" : "humantier5broadsword" },
-      { "item" : "humantier5spear" },
-      { "item" : "humantier5axe" },
-      { "item" : "humantier5dagger" },
-	  
-      { "item" : "humantier6head" },
-      { "item" : "humantier6chest" },
-      { "item" : "humantier6pants" },
-      { "item" : "humantier6hammer" },
-      { "item" : "humantier6shortsword" },
-      { "item" : "humantier6broadsword" },
-      { "item" : "humantier6spear" },
-      { "item" : "humantier6axe" },
-      { "item" : "humantier6dagger" },
-	  
-      { "item" : "humantier7head" },
-      { "item" : "humantier7chest" },
-      { "item" : "humantier7pants" },
-      { "item" : "humantier7hammer" },
-      { "item" : "humantier7shortsword" },
-      { "item" : "humantier7broadsword" },
-      { "item" : "humantier7spear" },
-      { "item" : "humantier7axe" },
-      { "item" : "humantier7dagger" },
-	  
-      { "item" : "humantier8head" },
-      { "item" : "humantier8chest" },
-      { "item" : "humantier8pants" },
-      { "item" : "humantier8hammer" },
-      { "item" : "humantier8shortsword" },
-      { "item" : "humantier8broadsword" },
-      { "item" : "humantier8spear" },
-      { "item" : "humantier8axe" },
-      { "item" : "humantier8dagger" },
-	  
-      { "item" : "humantier9head" },
-      { "item" : "humantier9chest" },
-      { "item" : "humantier9pants" },
-      { "item" : "humantier9hammer" },
-      { "item" : "humantier9shortsword" },
-      { "item" : "humantier9broadsword" },
-      { "item" : "humantier9spear" },
-      { "item" : "humantier9axe" },
-      { "item" : "humantier9dagger" },
-	  
-      { "item" : "humantier10head" },
-      { "item" : "humantier10chest" },
-      { "item" : "humantier10pants" },
-      { "item" : "humantier10hammer" },
-      { "item" : "humantier10shortsword" },
-      { "item" : "humantier10broadsword" },
-      { "item" : "humantier10spear" },
-      { "item" : "humantier10axe" },
-      { "item" : "humantier10dagger" }
     ]
   },
   "altOptionAsUndyColor" : true,
@@ -178,7 +143,8 @@
 	{ "ffca2b" : "f1e3b8", "cc8309" : "dcb778" }, //cream
 	{ "ffca2b" : "adf2fc", "cc8309" : "63cef1" }, //light blue
 	{ "ffca2b" : "fcadc1", "cc8309" : "f16398" }, //pink
-	{ "ffca2b" : "f4f4f4", "cc8309" : "c9c9c9" } //white
+	{ "ffca2b" : "f4f4f4", "cc8309" : "c9c9c9" }, //white
+	{ "ffca2b" : "b959ff", "cc8309" : "a426ff" } //violet
   ],
   "hairColor" : [ 
     { "d9c189" : "F2E6E1", "B29F72" : "E2D7D3", "a38d59" : "D3C9C4", "8C7147" : "BAB2AE", "735e3a" : "AAA3A0" }, //fran
