@@ -5,22 +5,36 @@
   "rarity" : "Common",
   "description" : "A spray-type medicine for healing light wounds. Reusable!",
   "shortdescription" : "Potion",
-  "tooltipKind" : "gun"
-  "category" : "pistol"
-  "twohanded" : "false"
-  "itemTags" : ["weapon", "medicine", "pistol"]
-  "level" : 10
+  "tooltipKind" : "gun",
+  "category" : "pistol",
+  "twohanded" : "false",
+  "itemTags" : ["weapon", "medicine", "pistol"],
+  "level" : 1,
   
   "inventoryIcon" : "pokepotionicon.png",
   
+  //dropCollision removed?
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  
+  //part of animationParts?
   "image" : "pokepotion.png",
+  
+  //animation custom???
+  
+  
   "baseOffset" : [0.5, 0.5],
   "muzzleOffset" : [18, 4],
   
+  //scripts?
+  
+  //elemental type?
+  
+  //removed???
   "fireTime" : 2,
   "walkWhileFiring" : false,
 
+  
+  //???
   "projectileType" : "pokepotionpuff",
   "projectile" : { "speed" : 0,
     "power" : 0,
