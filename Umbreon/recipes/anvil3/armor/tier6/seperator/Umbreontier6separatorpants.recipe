@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 8 },
+    { "item" : "Umbreontier5spants", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "Umbreontier6spants", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}
